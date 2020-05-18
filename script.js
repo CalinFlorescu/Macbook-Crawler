@@ -1,10 +1,10 @@
-const altexCrawler = require("./Handlers/altexCrawler");
-const istyleCrawler = require("./Handlers/istyleCrawler");
-const pcgarageCrawler = require("./Handlers/pcgarageCrawler");
+const altexCrawler = require("./handlers/altexCrawler");
+const istyleCrawler = require("./handlers/istyleCrawler");
+const pcgarageCrawler = require("./handlers/pcgarageCrawler");
 const {
   emagSilverCrawler,
   emagSpaceGreyCrawler,
-} = require("./Handlers/emagCrawler");
+} = require("./handlers/emagCrawler");
 
 const insertData = require("./databaseLogic");
 
