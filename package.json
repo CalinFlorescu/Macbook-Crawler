@@ -1,0 +1,15 @@
+{
+  "name": "Macbook-Crawler",
+  "version": "1.0.0",
+  "description": "Script that gets data for Macbook prices",
+  "main": "index.js",
+  "repository": "https://github.com/CalinFlorescu/Macbook-Crawler.git",
+  "author": "Calin Florescu",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "mongoose": "^5.9.14",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
